@@ -27,7 +27,7 @@ export default async function Navbar() {
                                     <button type='submit'>Logout</button>
                                 </form>
 
-                                <Link href={`/user/${session?.id}`}>
+                                <Link href={`/user/${session?.user.id}`}>
                                     <span>Create</span>
                                 </Link>
                             </>) : (
