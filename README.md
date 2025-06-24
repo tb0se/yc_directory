@@ -17,15 +17,15 @@ A NextJS full stack application
 
 1. Generate a auth secret using the Auth.js CLI,
     ```bash
-    npx auth
+    npx auth secret
     ```
 2. The above command should have created a `env.local` file with a `AUTH_SECRET` variable
 
 3. Add the following variables to the `env.local` file:
     ```bash
-    AUTH_SECRET="" // added by Auth.js
-    AUTH_GITHUB_ID=""
-    AUTH_GITHUB_SECRET=""
+    AUTH_SECRET="" # added by Auth.js
+    AUTH_GITHUB_ID="" # Github OAuth App
+    AUTH_GITHUB_SECRET="" # Github OAuth App
     ```
 
 ### Usage

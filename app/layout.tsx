@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from 'next/font/local';
 import "./globals.css";
+import "easymde/dist/easymde.min.css"
 
 const workSans = localFont({
   src: [
@@ -55,7 +56,7 @@ const workSans = localFont({
 
 
 export const metadata: Metadata = {
-  title: "YC Directpry",
+  title: "YC Directory",
   description: "Pitch, Vote and Grow",
 };
 
